@@ -93,3 +93,54 @@ h2 {
     background-size: cover;
     position: relative;
 }
+
+
+/* sign up page css */
+
+.signup-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Set a background color for the form section */
+}
+
+.signup-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#signup-form {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #252525;
+    /* Add a border to form inputs */
+    border-radius: 4px;
+    /* Add border radius for a more rounded look */
+}
+
+button[type="submit"] {
+    background-color: #252525;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3a3a3a;
+}
