@@ -10,6 +10,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background-color: cadetblue;
 }
 
 #hero-overlay {
@@ -23,12 +24,12 @@ body {
 
 #logo-text {
     position: absolute;
-    top: 70%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 1;
-    color: black;
+    color: white;
     font-size: 4rem;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
@@ -162,7 +163,7 @@ h2 {
 input[type="text"],
 input[type="email"],
 button[type="submit"] {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     font-size: 16px;
     border: 2px solid #252525;
