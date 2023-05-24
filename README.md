@@ -50,7 +50,7 @@ The website consists of the following pages:
 ![Homepage Banner](assets/images/mainbanner.PNG)
 ![Video and Footer](assets/images/video.PNG)
 
-The home page serves as the landing page of the website. It showcases the essence of sea swimming in Cork and introduces the Cork Sea Swimmers community. Users can find information about the benefits of sea swimming, coastal locations, and the invitation to join the community. The page also features a captivating hero image and an embedded YouTube video to engage and inspire visitors.
+The home page serves as the landing page of the website. It showcases the essence of sea swimming in Cork and introduces the Cork Sea Swimmers community. Users can find information about the website and a large banner image is used on the landing page with text overlayed. The page also features a captivating  embedded YouTube video to engage and inspire visitors. The footer is also displayed with copyright information and pop-out links to Facebook and Instagram. 
 
 ### Sign Up (signup.html)
 
