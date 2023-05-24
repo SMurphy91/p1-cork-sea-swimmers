@@ -151,6 +151,18 @@ h2 {
 
 /* sign up page css */
 
+/* ...previous CSS rules... */
+
+/* sign up page css */
+.form-section {
+    height: 900px;
+    width: 100%;
+    background: url('../images/waterbg.webp') no-repeat center center;
+    /* using this as had an issue with the image being distorted */
+    background-size: cover;
+    position: relative;
+}
+
 
 
 #video-container {
