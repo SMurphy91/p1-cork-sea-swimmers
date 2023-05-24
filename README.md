@@ -53,6 +53,7 @@ The website consists of the following pages:
 The home page serves as the landing page of the website. It showcases the essence of sea swimming in Cork and introduces the Cork Sea Swimmers community. Users can find information about the website and a large banner image is used on the landing page with text overlayed. The page also features a captivating  embedded YouTube video to engage and inspire visitors. The footer is also displayed with copyright information and pop-out links to Facebook and Instagram. 
 
 ### Sign Up (signup.html)
+![Sign Up](assets/images/signup.PNG)
 
 The sign-up page allows users to join the Cork Sea Swimmers community. It contains a form where individuals can enter their details, including name and email address. Users can also indicate how they found out about the community and provide any additional messages. The page includes an option to subscribe to the email list and a "Sign Me Up!" button to submit the form.
 
