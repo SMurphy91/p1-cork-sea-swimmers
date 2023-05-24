@@ -242,6 +242,26 @@ video {
     height: auto;
 }
 
+/* community gallery style */
+
+.community-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.gallery-container {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 50px;
+
+}
+
+.gallery-item {
+    margin: 5px;
+}
+
 /* footer styling */
 footer {
     background-color: #f5f5f5;
