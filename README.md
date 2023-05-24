@@ -134,7 +134,11 @@ The Community page includes a navigation bar at the top, allowing users to acces
 
 ## Testing
 
-The website was tested using HTML and CSS validators. It was also evaluated using Lighthouse in DevTools to confirm its readability and accessibility.
+The website was tested using HTML and CSS validators.
+
+No CSS errors were found when ran through the officail Jigsaw Validator.
+
+It was also evaluated using Lighthouse in DevTools to confirm its readability and accessibility.
 
 ![Accessibility](assets/images/lighthouse.PNG)
 
