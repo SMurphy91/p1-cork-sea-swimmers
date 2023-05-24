@@ -47,6 +47,8 @@ The target audience for this website includes:
 The website consists of the following pages:
 
 ### Home (index.html)
+![Homepage Banner](assets/images/mainbanner.PNG)
+![Video and Footer](assets/images/video.PNG)
 
 The home page serves as the landing page of the website. It showcases the essence of sea swimming in Cork and introduces the Cork Sea Swimmers community. Users can find information about the benefits of sea swimming, coastal locations, and the invitation to join the community. The page also features a captivating hero image and an embedded YouTube video to engage and inspire visitors.
 
