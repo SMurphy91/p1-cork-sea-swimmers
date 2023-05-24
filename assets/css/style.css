@@ -87,11 +87,12 @@ h2 {
     font-size: 110%;
     letter-spacing: 4px;
     text-align: center;
-    position: absolute;
-    top: 20px;
+    position: fixed;
+    top: -15px;
     left: 0;
     right: 0;
     z-index: 1;
+    background-color: #fff;
 }
 
 #menu,
@@ -120,6 +121,7 @@ h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 
 /* hero image */
 
@@ -151,20 +153,23 @@ h2 {
 
 /* sign up page css */
 
-/* ...previous CSS rules... */
 
-/* sign up page css */
 
 .form-section {
+
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin-top: 50px;
-    background-image: url('../images/waterbg.webp');
+    height: 100%;
+    width: 100%;
+    background: url('../images/waterbg.webp') no-repeat center center;
+    /* using this as had an issue with the image being distorted */
     background-size: cover;
-    background-position: center;
+    position: relative;
 }
+
+
 
 .form-container {
     max-width: 500px;
