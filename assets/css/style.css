@@ -337,6 +337,7 @@ footer p {
     p {
         font-size: 14px;
         margin-bottom: 10px;
+        max-width: 100%;
     }
 
     .form-container {
@@ -385,6 +386,7 @@ footer p {
     p {
         font-size: 16px;
         margin-bottom: 15px;
+        max-width: 100%;
     }
 
     .form-container {
@@ -433,6 +435,7 @@ footer p {
     p {
         font-size: 18px;
         margin-bottom: 20px;
+        max-width: 100%;
     }
 
     .form-container {
