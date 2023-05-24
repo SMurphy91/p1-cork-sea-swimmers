@@ -88,6 +88,7 @@ h2 {
     letter-spacing: 4px;
     text-align: center;
     position: fixed;
+    /* adding space to stop overlapping */
     top: -15px;
     left: 0;
     right: 0;
