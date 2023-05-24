@@ -108,3 +108,13 @@ The Community page includes a navigation bar at the top, allowing users to acces
 - **Sign Up**: Takes users to the Sign Up page (signup.html).
 - **Community**: Highlights the current page (community.html).
 
+# Credits
+**Images**
+<https://unsplash.com/photos/PiPZ2DHa3rE>Courtesy of Jakob Owens <https://unsplash.com/@jakobowens1>
+
+<https://unsplash.com/photos/3dK05zuot8c>Courtesy of Ahmed Nishaath <https://unsplash.com/@nihthu>
+
+
+<https://unsplash.com/photos/341OczdirBM>Courtesy of Trend_io<https://unsplash.com/@trend_io>
+
+Video:<https://www.youtube.com/watch?v=F8MIB9sbuug&ab_channel=JackORourke> (17) Sea Swimming, Jack O’Rourke (Dan Keaney) - YouTube
