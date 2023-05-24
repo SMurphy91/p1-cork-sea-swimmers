@@ -319,6 +319,15 @@ footer p {
 }
 
 /* Adjustments for small screens */
+
+@media (max-width: 70.08px) {
+
+    h1,
+    p {
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 600px) {
     #logo {
         font-size: 24px;
