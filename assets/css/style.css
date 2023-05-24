@@ -353,3 +353,60 @@ footer p {
         margin-bottom: 20px;
     }
 }
+
+/* Adjustments for small screens */
+@media (max-width: 600px) {
+    .form-section {
+        padding: 10px;
+    }
+
+    .form-container {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container select,
+    .form-container textarea {
+        width: 100%;
+    }
+}
+
+/* Adjustments for medium screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .form-section {
+        padding: 20px;
+    }
+
+    .form-container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container select,
+    .form-container textarea {
+        width: 100%;
+    }
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 1025px) {
+    .form-section {
+        padding: 30px;
+    }
+
+    .form-container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container select,
+    .form-container textarea {
+        width: 100%;
+    }
+}
