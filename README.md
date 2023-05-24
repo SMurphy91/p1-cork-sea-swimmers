@@ -153,6 +153,8 @@ The website was deployed using GitHub. The live link can be found here: [Cork Se
 **Code**
 Code Institute - [Form Dump Link](https://formdump.codeinstitute.net/) was used on the signup.html page.
 
+[TinyPNG](https://tinypng.com/) was used to optimize image size for good loading times.
+
 **Images**
 - [Courtesy of Jakob Owens](https://unsplash.com/@jakobowens1)
 - [Courtesy of Ahmed Nishaath](https://unsplash.com/@nihthu)
