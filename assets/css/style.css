@@ -328,6 +328,25 @@ footer p {
         font-size: 16px;
         margin-bottom: 10px;
     }
+
+    .form-section {
+        margin-top: 100px;
+    }
+
+    .community-section {
+        padding: 40px;
+    }
+
+    /* Reduce the font-size of .community-section h1 */
+    .community-section h1 {
+        font-size: 18px;
+    }
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
 }
 
 /* Adjustments for medium screens */
