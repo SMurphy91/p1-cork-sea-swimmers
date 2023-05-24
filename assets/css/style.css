@@ -24,7 +24,7 @@ body {
 
 #logo-text {
     position: absolute;
-    top: 90%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -63,13 +63,13 @@ h2 {
 #logo {
     position: absolute;
     /* Position the logo element */
-    top: 50%;
+    top: -20%;
     /* Move it 50% down from the top */
     left: 50%;
     /* Move it 50% from the left */
     transform: translate(-50%, -50%);
     /* Center the element precisely */
-    font-size: 6rem;
+    font-size: 3rem;
     /* Adjust the font size as needed */
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -79,6 +79,7 @@ h2 {
     /* Center the text horizontally */
     z-index: 2;
     /* Set a higher z-index value */
+
 }
 
 /* navigation links */
@@ -320,13 +321,16 @@ footer p {
 
 /* Adjustments for small screens */
 @media (max-width: 600px) {
-    #logo {
-        font-size: 24px;
+
+    /* Adjust the position of #logo-text to center vertically */
+    #logo-text {
+        top: 40%;
     }
 
+    /* Adjust the font-size and margin of #logo-text p */
     #logo-text p {
-        font-size: 16px;
-        margin-bottom: 10px;
+        font-size: 1rem;
+        margin-bottom: 5px;
     }
 
     .form-section {
@@ -369,13 +373,16 @@ footer p {
 
 /* Adjustments for medium screens */
 @media (min-width: 601px) and (max-width: 1024px) {
-    #logo {
-        font-size: 32px;
+
+    /* Adjust the position of #logo-text to center vertically */
+    #logo-text {
+        top: 45%;
     }
 
+    /* Adjust the font-size and margin of #logo-text p */
     #logo-text p {
-        font-size: 18px;
-        margin-bottom: 15px;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
     }
 
     .form-section {
@@ -418,13 +425,14 @@ footer p {
 
 /* Adjustments for larger screens */
 @media (min-width: 1025px) {
-    #logo {
-        font-size: 48px;
+    #logo-text {
+        top: 50%;
     }
 
+    /* Adjust the font-size and margin of #logo-text p */
     #logo-text p {
-        font-size: 20px;
-        margin-bottom: 20px;
+        font-size: 1.5rem;
+        margin-bottom: 15px;
     }
 
     .form-section {
