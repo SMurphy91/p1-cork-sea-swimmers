@@ -37,41 +37,52 @@
         </nav>
     </header>
     <section class="form-section">
-        <!--form dump link-->
-        <form method="post" action="https://formdump.codeinstitute.net/">
-            <!--fieldset to group related text together-->
-            <fieldset>
-                <legend>Enter Your Details:</legend>
-                <!--Name label -  input type is text and size and max length set-->
-                <label>Name:<input type="text" name="name" size="30" maxlength="60"></label>
+        <div class="form-container">
+            <!--form dump link-->
+            <form method="post" action="https://formdump.codeinstitute.net/">
+                <!--fieldset to group related text together-->
+                <fieldset>
+                    <legend>Enter Your Details:</legend>
+                    <!--Name label -  input type is text and size and max length set-->
+                    <label>
+                        <span>Name:</span>
+                        <input type="text" name="name" size="30" maxlength="60">
+                    </label>
 
-                <!--Email label - set inpout type, size and max length-->
-                <label>Email: <input type="email" name="email" size="30" maxlength="60"></label>
-            </fieldset>
+                    <!--Email label - set input type, size, and max length-->
+                    <label>
+                        <span>Email:</span>
+                        <input type="email" name="email" size="30" maxlength="60">
+                    </label>
+                </fieldset>
 
-            <fieldset>
-                <!--How Did You Find Us - drop down option-->
-                <label for="referral">How did you hear about us?</label>
-                <!--drop down options-->
-                <select name="referral-options" id="referral">
-                    <option value="friend">Friend</option>
-                    <option value="google">Google</option>
-                    <option value="other">Other</option>
-                </select>
+                <fieldset>
+                    <!--How Did You Find Us - drop down option-->
+                    <label for="referral">How did you hear about us?</label>
+                    <!--drop down options-->
+                    <select name="referral-options" id="referral">
+                        <option value="friend">Friend</option>
+                        <option value="google">Google</option>
+                        <option value="other">Other</option>
+                    </select>
 
-                <!--Adding comment box for users-->
-                <label for="message">Message:</label>
-                <!--text box-->
-                <textarea rows="4" cols="60" id="message"></textarea>
+                    <!--Adding comment box for users-->
+                    <label for="message">Message:</label>
+                    <!--text box-->
+                    <textarea rows="4" cols="60" id="message"></textarea>
 
-                <!--email list agreement -->
-                <label><input type="checkbox" name""agree" checked="checked" />Add me to the email list</label>
-                <!--sign up button-->
-                <input type="submit" value="Sign Me Up!" />
-            </fieldset>
+                    <!--email list agreement -->
+                    <label>
+                        <input type="checkbox" name="agree" checked="checked">
+                        <span>Add me to the email list</span>
+                    </label>
+
+                    <!--sign up button-->
+                    <input type="submit" value="Sign Me Up!">
+                </fieldset>
+            </form>
+        </div>
     </section>
-
-
     <footer>
         <div class=" follow-us">
             <p>Follow us</p>

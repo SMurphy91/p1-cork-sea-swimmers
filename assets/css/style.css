@@ -154,15 +154,60 @@ h2 {
 /* ...previous CSS rules... */
 
 /* sign up page css */
+
 .form-section {
-    height: 900px;
-    width: 100%;
-    background: url('../images/waterbg.webp') no-repeat center center;
-    /* using this as had an issue with the image being distorted */
-    background-size: cover;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
+.form-container {
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container fieldset {
+    margin-bottom: 20px;
+}
+
+.form-container legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-container label span {
+    display: inline-block;
+    width: 100px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
 
 
 #video-container {
