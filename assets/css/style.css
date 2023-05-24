@@ -388,6 +388,11 @@ footer p {
         padding: 10px;
     }
 
+    p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
     .form-container {
         max-width: 300px;
         margin: 0 auto;
@@ -407,6 +412,11 @@ footer p {
         padding: 20px;
     }
 
+    p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
     .form-container {
         max-width: 500px;
         margin: 0 auto;
@@ -424,6 +434,11 @@ footer p {
 @media (min-width: 1025px) {
     .form-section {
         padding: 30px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 20px;
     }
 
     .form-container {
