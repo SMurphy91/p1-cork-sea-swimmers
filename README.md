@@ -1,10 +1,35 @@
-# Cork Sea Swimmers
-## A website built for those intrested in Cork Sea Swimmin. This website informs the user of the benefits of sea swimming and a sign-up form.
-### Project 1 - Shane Murphy
-
-# 3 Page Website - home, sign up and image gallery(community)
 
 # Cork Sea Swimmers
+
+![Accessibility](assets/images/views.PNG)
+## A website built for those interested in Cork Sea Swimming. This website informs the user about the benefits of sea swimming and provides a sign-up form.
+
+## Project 1 - Shane Murphy
+
+## Table of Contents
+- 
+  - [Table of Contents](#table-of-contents)
+  - [Cork Sea Swimmers](#cork-sea-swimmers-1)
+  - [User Idea](#user-idea)
+  - [Pages](#pages)
+    - [Home (index.html)](#home-indexhtml)
+    - [Sign Up (signup.html)](#sign-up-signuphtml)
+    - [Community (community.html)](#community-communityhtml)
+  - [Purpose of the Website](#purpose-of-the-website)
+  - [Sign Up Page](#sign-up-page)
+    - [User Idea](#user-idea-1)
+    - [Form Details](#form-details)
+    - [Navigation](#navigation)
+  - [Community](#community)
+    - [Benefits of Building a Community](#benefits-of-building-a-community)
+    - [Community Section](#community-section)
+    - [Image Gallery](#image-gallery)
+    - [Navigation](#navigation-1)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+
+## Cork Sea Swimmers
 
 Welcome to the Cork Sea Swimmers website! This website is designed for individuals who are interested in sea swimming in Cork, Ireland. It provides information, resources, and a platform to connect with a vibrant community of sea enthusiasts.
 
@@ -41,19 +66,19 @@ The Cork Sea Swimmers website aims to achieve the following:
 - Build a community of sea enthusiasts who can connect, share knowledge, and support each other
 - Encourage individuals to join the community, participate in sea swimming events, and explore the joy of swimming in the sea
 - Serve as a platform for communication, updates, and future event announcements
------------------------------------------------------------------------------------------------
-# Sign Up Page
+
+## Sign Up Page
 
 The Sign Up page on the Cork Sea Swimmers website allows individuals to join the community and stay connected with the sea swimming enthusiasts in Cork, Ireland.
 
-## User Idea
+### User Idea
 
 The target audience for this page includes:
 
 - Individuals who are interested in sea swimming in Cork, Ireland
 - People who want to receive updates, event notifications, and news from the Cork Sea Swimmers community
 
-## Form Details
+### Form Details
 
 The Sign Up page features a form where users can enter their details and join the Cork Sea Swimmers community. Here are the form fields and options:
 
@@ -64,25 +89,19 @@ The Sign Up page features a form where users can enter their details and join th
 - **Add me to the email list**: Users can check a checkbox to indicate their consent to be added to the email list.
 - **Sign Me Up!**: A submit button is available for users to submit the form and join the community.
 
-## Navigation
+### Navigation
 
-The Signup page includes a navigation bar at the top of the page. It allows users to access other pages of the website easily. The navigation menu includes the following options:
+The Sign Up page includes a navigation bar at the top of the page, allowing users to access other pages of the website easily. The navigation menu includes the following options:
 
 - **Home**: Takes users to the Home page (index.html).
 - **Sign Up**: Highlights the current page (signup.html).
 - **Community**: Takes users to the Community page (community.html).
 
-## Footer
-
-The page includes a footer section that contains social media links and the copyright notice. Users can click on the Facebook and Instagram icons to visit the Cork Sea Swimmers' social media pages.
-
----------------------------------
-
-# Community
+## Community
 
 The Community page on the Cork Sea Swimmers website aims to build a strong and vibrant community of sea swimming enthusiasts in Cork, Ireland.
 
-## Benefits of Building a Community
+### Benefits of Building a Community
 
 Building a community offers numerous benefits to its members. Here are some advantages highlighted on the Community page:
 
@@ -92,38 +111,39 @@ Building a community offers numerous benefits to its members. Here are some adva
 - **Collaboration and Innovation**: By bringing together diverse perspectives, communities encourage collaboration and spark innovation, leading to creative solutions and advancements.
 - **Sense of Belonging**: Being part of a community gives individuals a sense of belonging and connection, creating a supportive and inclusive environment.
 
-## Community Section
+### Community Section
 
 The Community page starts with a dedicated section emphasizing the importance and benefits of building a community. It highlights the advantages mentioned above and conveys the value of joining the Cork Sea Swimmers community.
 
-## Image Gallery
+### Image Gallery
 
 The page includes an image gallery showcasing various images related to sea swimming and the community. The gallery aims to evoke a sense of interest and excitement among visitors, encouraging them to be part of the community.
 
-## Navigation
+### Navigation
 
 The Community page includes a navigation bar at the top, allowing users to access other pages of the website easily. The navigation menu includes the following options:
 
 - **Home**: Takes users to the Home page (index.html).
 - **Sign Up**: Takes users to the Sign Up page (signup.html).
 - **Community**: Highlights the current page (community.html).
-# Testing
-Tested using HTML and CSS validator
 
-Also ran through Lighthouse in devtools to confirm that the website was easy to read and accessible:
+## Testing
+
+The website was tested using HTML and CSS validators. It was also evaluated using Lighthouse in DevTools to confirm its readability and accessibility.
+
 ![Accessibility](assets/images/lighthouse.PNG)
 
-# Deployment
-The website was deployed using Github
-The live link can be found here [Cork Sea Swimmers](<https://smurphy91.github.io/p1-cork-sea-swimmers/>)
+## Deployment
 
-# Credits
+The website was deployed using GitHub. The live link can be found here: [Cork Sea Swimmers](https://smurphy91.github.io/p1-cork-sea-swimmers/)
+
+## Credits
+
 **Images**
-<https://unsplash.com/photos/PiPZ2DHa3rE>Courtesy of Jakob Owens <https://unsplash.com/@jakobowens1>
+- [Courtesy of Jakob Owens](https://unsplash.com/@jakobowens1)
+- [Courtesy of Ahmed Nishaath](https://unsplash.com/@nihthu)
+- [Courtesy of Trend_io](https://unsplash.com/@trend_io)
 
-<https://unsplash.com/photos/3dK05zuot8c>Courtesy of Ahmed Nishaath <https://unsplash.com/@nihthu>
+**Video**
+- [Sea Swimming, Jack O'Rourke (Dan Keaney) - YouTube](https://www.youtube.com/watch?v=F8MIB9sbuug&ab_channel=JackORourke)
 
-
-<https://unsplash.com/photos/341OczdirBM>Courtesy of Trend_io<https://unsplash.com/@trend_io>
-
-Video:<https://www.youtube.com/watch?v=F8MIB9sbuug&ab_channel=JackORourke> (17) Sea Swimming, Jack O’Rourke (Dan Keaney) - YouTube
