@@ -110,8 +110,8 @@ The Community page includes a navigation bar at the top, allowing users to acces
 # Testing
 Tested using HTML and CSS validator
 
-Also ran through Lighthouse in devtools to confirm that teh website was easy to read and accessible:
-![Employee data](assets/images/lighthouse.PNG) "Employee Data title")
+Also ran through Lighthouse in devtools to confirm that the website was easy to read and accessible:
+![Accessibility](assets/images/lighthouse.PNG)
 
 # Deployment
 The website was deployed using Github
