@@ -107,6 +107,15 @@ The Community page includes a navigation bar at the top, allowing users to acces
 - **Home**: Takes users to the Home page (index.html).
 - **Sign Up**: Takes users to the Sign Up page (signup.html).
 - **Community**: Highlights the current page (community.html).
+# Testing
+Tested using HTML and CSS validator
+
+Also ran through Lighthouse in devtools to confirm that teh website was easy to read and accessible:
+![Employee data](assets/images/lighthouse.PNG) "Employee Data title")
+
+# Deployment
+The website was deployed using Github
+The live link can be found here [Cork Sea Swimmers](<https://smurphy91.github.io/p1-cork-sea-swimmers/>)
 
 # Credits
 **Images**
