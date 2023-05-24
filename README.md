@@ -58,6 +58,7 @@ The home page serves as the landing page of the website. It showcases the essenc
 The sign-up page allows users to join the Cork Sea Swimmers community. It contains a form where individuals can enter their details, including name and email address. Users can also indicate how they found out about the community and provide any additional messages. The page includes an option to subscribe to the email list and a "Sign Me Up!" button to submit the form.
 
 ### Community (community.html)
+![Community](assets/images/com.PNG)
 
 The community page emphasizes the importance and advantages of building a community. It highlights the benefits of networking, knowledge sharing, support, collaboration, innovation, and a sense of belonging. The page aims to inspire visitors to become part of the Cork Sea Swimmers community and experience these benefits firsthand. Additionally, the page features a gallery with images related to sea swimming and community activities.
 
