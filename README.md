@@ -26,6 +26,7 @@
     - [Image Gallery](#image-gallery)
     - [Navigation](#navigation-1)
   - [Testing](#testing)
+  - [Responsive Design](#responsive-design)
   - [Deployment](#deployment)
   - [Credits](#credits)
 
@@ -133,11 +134,24 @@ The website was tested using HTML and CSS validators. It was also evaluated usin
 
 ![Accessibility](assets/images/lighthouse.PNG)
 
+The Form was tested to ensure it was working. 
+
+## Responsive Design
+
+The Cork Sea Swimmers website is designed with responsiveness in mind. It adapts to different screen sizes, ensuring an optimal user experience across devices, including desktops, tablets, and mobile phones. The responsive design incorporates:
+
+- **Media Queries**: CSS media queries are utilized to apply specific styles and adjust elements based on the device's screen size. This includes modifying font sizes, margins, padding, and other visual aspects to enhance readability and usability.
+- **Image Optimization**: Images are optimized and served in appropriate resolutions to minimize file sizes and reduce load times on mobile networks. This helps improve performance and user experience, particularly on devices with slower connections.
+
+The responsive design aims to provide a seamless and enjoyable browsing experience for users across a wide range of devices, enabling them to access the website's content and features comfortably.
+
 ## Deployment
 
 The website was deployed using GitHub. The live link can be found here: [Cork Sea Swimmers](https://smurphy91.github.io/p1-cork-sea-swimmers/)
 
 ## Credits
+**Code**
+Code Institute - [Form Dump Link](https://formdump.codeinstitute.net/) was used on the signup.html page.
 
 **Images**
 - [Courtesy of Jakob Owens](https://unsplash.com/@jakobowens1)
