@@ -318,38 +318,146 @@ footer p {
     height: auto;
 }
 
-/* For Desktop view */
-@media (max-width: 1600px) {
+/* Adjustments for small screens */
+@media (max-width: 600px) {
+    #logo {
+        font-size: 24px;
+    }
 
-    /* CSS styles for Desktop view */
-    body {
-        transform: scale(0.3181);
+    #logo-text p {
+        font-size: 16px;
+        margin-bottom: 10px;
     }
 }
 
-/* For Laptop view */
-@media (max-width: 1280px) {
+/* Adjustments for medium screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+    #logo {
+        font-size: 32px;
+    }
 
-    /* CSS styles for Laptop view */
-    body {
-        transform: scale(0.277);
+    #logo-text p {
+        font-size: 18px;
+        margin-bottom: 15px;
     }
 }
 
-/* For Tablet view */
-@media (max-width: 768px) {
+/* Adjustments for larger screens */
+@media (min-width: 1025px) {
+    #logo {
+        font-size: 48px;
+    }
 
-    /* CSS styles for Tablet view */
-    body {
-        transform: scale(0.219);
+    #logo-text p {
+        font-size: 20px;
+        margin-bottom: 20px;
     }
 }
 
-/* For Mobile view */
-@media (max-width: 320px) {
+/* Adjustments for small screens */
+@media (max-width: 600px) {
+    .form-section {
+        padding: 10px;
+    }
 
-    /* CSS styles for Mobile view */
-    body {
-        transform: scale(0.219);
+    .form-container {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container select,
+    .form-container textarea {
+        width: 100%;
+    }
+}
+
+/* Adjustments for medium screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .form-section {
+        padding: 20px;
+    }
+
+    .form-container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container select,
+    .form-container textarea {
+        width: 100%;
+    }
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 1025px) {
+    .form-section {
+        padding: 30px;
+    }
+
+    .form-container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container select,
+    .form-container textarea {
+        width: 100%;
+    }
+}
+
+/* Adjustments for small screens */
+@media (max-width: 600px) {
+    .community-section {
+        padding: 60px;
+    }
+
+    .community-section h1 {
+        font-size: 20px;
+    }
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+/* Adjustments for medium screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .community-section {
+        padding: 60px;
+    }
+
+    .community-section h1 {
+        font-size: 24px;
+    }
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 1025px) {
+    .community-section {
+        padding: 60px;
+    }
+
+    .community-section h1 {
+        font-size: 28px;
+    }
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
     }
 }
